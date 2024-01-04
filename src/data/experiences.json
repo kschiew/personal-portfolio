@@ -1,0 +1,29 @@
+{
+  "experiences": [
+    {
+      "jobTitle": "Software Engineer",
+      "organization": "Open Government Products",
+      "contributions": [
+        "Integrated PKCE protocol into sgID and launched the TypeScript SDK major release, including the oversight of user roll-out plan.",
+        "Built the Rules Engine prototype for sgID which allows users to define and consume dynamic derived data.",
+        "Worked on CalSG to improve the functionality of slot booking and onboarding flow."
+      ],
+      "techStack": ["JavaScript", "TypeScript", "React"],
+      "startDate": "2023-03-20"
+    },
+    {
+      "jobTitle": "Software Engineer",
+      "organization": "Meta",
+      "contributions": [
+        "Took full ownership of the content reviewing system for political human review workflows.",
+        "Successfully launched multiple features after conducting A/B testing and statistical analysis.",
+        "Experiment results have shown to improve average job handling time by ~10%.",
+        "Notable features include integrating ML signals into the reviewing process.",
+        "Constructed data pipelines for injection of quality assurance review jobs."
+      ],
+      "techStack": ["JavaScript", "TypeScript", "React"],
+      "startDate": "2022-07-11",
+      "endDate": "2022-12-11"
+    }
+  ]
+}
