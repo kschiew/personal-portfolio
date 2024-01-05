@@ -3,7 +3,7 @@
     {
       "jobTitle": "Software Engineer",
       "organization": "Open Government Products",
-      "contributions": [
+      "details": [
         "Integrated PKCE protocol into sgID and launched the TypeScript SDK major release, including the oversight of user roll-out plan.",
         "Built the Rules Engine prototype for sgID which allows users to define and consume dynamic derived data.",
         "Worked on CalSG to improve the functionality of slot booking and onboarding flow."
@@ -14,7 +14,7 @@
     {
       "jobTitle": "Software Engineer",
       "organization": "Meta",
-      "contributions": [
+      "details": [
         "Took full ownership of the content reviewing system for political human review workflows.",
         "Successfully launched multiple features after conducting A/B testing and statistical analysis.",
         "Experiment results have shown to improve average job handling time by ~10%.",
@@ -28,7 +28,7 @@
     {
       "jobTitle": "Software Engineer Intern",
       "organization": "Hodlnaut",
-      "contributions": [
+      "details": [
         "Designed and built an MVP for an over-the-counter trading simulator for various cryptocurrencies.",
         "Built Web Sockets & REST API’s for users to retrieve the order books from the server & to place various order requests."
       ],
@@ -39,7 +39,7 @@
     {
       "jobTitle": "Quantitative Developer Intern",
       "organization": "Squarepoint Capital",
-      "contributions": [
+      "details": [
         "Worked on the full stack of a time-series data analysis/forecasting web application.",
         "Design an advanced search functionality that utilizes Django’s Queryset API.",
         "Transform time-series data and plot the result on the Angular app.",

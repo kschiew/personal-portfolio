@@ -1,35 +1,31 @@
 import styled from "styled-components";
 import { ExperienceTimeline } from "./ExperienceTimeline";
-import { Experience } from "./Experience.types";
+import { WorkExperience } from "./Experience.types";
 import { Text } from "@radix-ui/themes";
 import { TechStackRow } from "../../TechStack/TechStackRow";
 
-type ExperienceCardProps = Experience;
+type WorkExperienceCardProps = WorkExperience;
 
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 2fr 5fr;
+  padding: 16px 0;
 `;
 
 const MainBlock = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 4px;
 `;
 
 const JobTitle = styled(Text)``;
 
 const Organization = styled(Text)``;
 
-const DetailsBlock = styled.div`
-  padding: 4px;
-`;
+const DetailsBlock = styled.div``;
+const DetailsList = styled.ul``;
+const DetailListItem = styled.li``;
 
-const ContributionsList = styled.ul``;
-
-const ContributionListItem = styled.li``;
-
-const Contribution = styled(Text)`
+const DetailEntry = styled(Text)`
   text-align: left;
 `;
 
@@ -38,14 +34,14 @@ const TechStackTitle = styled(Text)`
   font-size: 1rem;
 `;
 
-export const ExperienceCard = ({
+export const WorkExperienceCard = ({
   jobTitle,
   organization,
   startDate,
   endDate,
-  contributions,
+  details,
   techStack,
-}: ExperienceCardProps) => {
+}: WorkExperienceCardProps) => {
   return (
     <Wrapper>
       <MainBlock>
@@ -57,13 +53,13 @@ export const ExperienceCard = ({
         ></ExperienceTimeline>
       </MainBlock>
       <DetailsBlock>
-        <ContributionsList>
-          {contributions.map((contribution) => (
-            <ContributionListItem>
-              <Contribution>{contribution}</Contribution>
-            </ContributionListItem>
+        <DetailsList>
+          {details.map((detailEntry) => (
+            <DetailListItem>
+              <DetailEntry>{detailEntry}</DetailEntry>
+            </DetailListItem>
           ))}
-        </ContributionsList>
+        </DetailsList>
         <TechStackTitle>Tech Stack:</TechStackTitle>
         <TechStackRow techStack={techStack} />
       </DetailsBlock>

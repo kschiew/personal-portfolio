@@ -4,7 +4,7 @@ import { formatDatetime } from "../../../utils/datetime";
 
 export type ExperienceTimelineProps = {
   startDate: Date;
-  endDate: Date | null;
+  endDate: Date | undefined;
 };
 
 const Wrapper = styled(Text)``;
