@@ -1,10 +1,7 @@
-import styled from "styled-components"
+import styled from "styled-components";
+
+const Section = styled.section``;
 
 export const HomepageAboutSection = () => {
-    const Section = styled.section``
-
-    return (
-        <Section>
-        </Section>
-    )
-}
+  return <Section></Section>;
+};

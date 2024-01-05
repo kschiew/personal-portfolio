@@ -21,9 +21,33 @@
         "Notable features include integrating ML signals into the reviewing process.",
         "Constructed data pipelines for injection of quality assurance review jobs."
       ],
-      "techStack": ["JavaScript", "TypeScript", "React"],
+      "techStack": ["JavaScript", "TypeScript", "React", "PHP", "Python"],
       "startDate": "2022-07-11",
       "endDate": "2022-12-11"
+    },
+    {
+      "jobTitle": "Software Engineer Intern",
+      "organization": "Hodlnaut",
+      "contributions": [
+        "Designed and built an MVP for an over-the-counter trading simulator for various cryptocurrencies.",
+        "Built Web Sockets & REST API’s for users to retrieve the order books from the server & to place various order requests."
+      ],
+      "techStack": ["JavaScript", "TypeScript", "Express"],
+      "startDate": "2022-11-01",
+      "endDate": "2023-01-11"
+    },
+    {
+      "jobTitle": "Quantitative Developer Intern",
+      "organization": "Squarepoint Capital",
+      "contributions": [
+        "Worked on the full stack of a time-series data analysis/forecasting web application.",
+        "Design an advanced search functionality that utilizes Django’s Queryset API.",
+        "Transform time-series data and plot the result on the Angular app.",
+        "Create a frontend sandbox which allows users to perform mathematical operations on multiple time-series datasets."
+      ],
+      "techStack": ["TypeScript", "Python", "Angular", "Django", "PostgreSQL"],
+      "startDate": "2022-05-01",
+      "endDate": "2023-08-11"
     }
   ]
 }

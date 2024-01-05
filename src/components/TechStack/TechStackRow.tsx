@@ -7,7 +7,7 @@ type TechStackRowProps = {
 
 const Wrapper = styled.div`
   display: flex;
-  padding: 8px;
+  padding: 8px 0;
 `;
 
 export const TechStackRow = ({techStack}: TechStackRowProps) => {
