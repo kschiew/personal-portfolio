@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import { TechSkill, getTechSkillIcon } from "../../constants/TechSkill"
+import { TechSkill  } from "../../constants/TechSkill"
+import { TechSkillIcon } from "./TechSkillIcon";
 
 type TechStackRowProps = {
     techStack: TechSkill[]
@@ -10,10 +11,11 @@ const Wrapper = styled.div`
   padding: 8px 0;
 `;
 
+
 export const TechStackRow = ({techStack}: TechStackRowProps) => {
     return (
         <Wrapper>
-            {techStack.map(techSkill => getTechSkillIcon(techSkill))}
+            {techStack.map(techSkill => <TechSkillIcon techSkill={techSkill}/>)}
         </Wrapper>
     )
 }

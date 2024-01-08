@@ -2,6 +2,7 @@ import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import { Suspense } from "react";
 import { useRoutes } from "react-router-dom";
+import './theme-config.css'
 
 import routes from "~react-pages";
 

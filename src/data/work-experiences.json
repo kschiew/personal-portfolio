@@ -8,7 +8,7 @@
         "Built the Rules Engine prototype for sgID which allows users to define and consume dynamic derived data.",
         "Worked on CalSG to improve the functionality of slot booking and onboarding flow."
       ],
-      "techStack": ["JavaScript", "TypeScript", "React"],
+      "techStack": ["TypeScript", "React", "NodeJs", "NestJs", "PostgreSQL"],
       "startDate": "2023-03-20"
     },
     {
@@ -21,7 +21,7 @@
         "Notable features include integrating ML signals into the reviewing process.",
         "Constructed data pipelines for injection of quality assurance review jobs."
       ],
-      "techStack": ["JavaScript", "TypeScript", "React", "PHP", "Python"],
+      "techStack": ["TypeScript", "React", "PHP", "Python"],
       "startDate": "2022-07-11",
       "endDate": "2022-12-11"
     },
@@ -32,7 +32,7 @@
         "Designed and built an MVP for an over-the-counter trading simulator for various cryptocurrencies.",
         "Built Web Sockets & REST API’s for users to retrieve the order books from the server & to place various order requests."
       ],
-      "techStack": ["JavaScript", "TypeScript", "Express"],
+      "techStack": ["JavaScript", "NodeJs", "Express"],
       "startDate": "2022-11-01",
       "endDate": "2023-01-11"
     },
@@ -45,7 +45,7 @@
         "Transform time-series data and plot the result on the Angular app.",
         "Create a frontend sandbox which allows users to perform mathematical operations on multiple time-series datasets."
       ],
-      "techStack": ["TypeScript", "Python", "Angular", "Django", "PostgreSQL"],
+      "techStack": ["TypeScript", "Python", "AngularJs", "Django", "PostgreSQL"],
       "startDate": "2022-05-01",
       "endDate": "2023-08-11"
     }

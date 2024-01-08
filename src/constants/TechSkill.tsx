@@ -8,7 +8,7 @@ export enum TechSkill {
   Aws,
   Pulumi,
   Sst,
-  Angular,
+  AngularJs,
   Kotlin,
   Java,
   Django,
@@ -16,7 +16,7 @@ export enum TechSkill {
   GraphQL,
   Python,
   Mercurial,
-  Express
+  Express,
 }
 
 export const getTechSkillIcon = (techSkill?: TechSkill) => {
@@ -26,5 +26,5 @@ export const getTechSkillIcon = (techSkill?: TechSkill) => {
 
   const classKey = TechSkill[techSkill].toLowerCase();
 
-  return <i className={`devicon-${classKey}-plain`} style={{fontSize: '64px'}}></i>;
+  return <i className={`devicon-${classKey}-plain`} style={{fontSize: '64px'}}>{TechSkill[techSkill]}</i>;
 };
